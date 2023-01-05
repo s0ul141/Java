@@ -1,4 +1,7 @@
-echo "# Java" >> README.md
+>> README.md
+
+
+echo "# Java" 
 git init
 git add README.md
 git commit -m "first commit"
