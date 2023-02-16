@@ -1,0 +1,14 @@
+class mwp_ass_3
+{
+	static void trap(int a,int b, double h)
+	{
+		double area=0.5*(a+b)*h;
+		System.out.println(area);
+	}
+	public static void main (String[]args)
+	{
+		System.out.println("***Main starts***");
+		trap(6,55,6.99);
+		System.out.println("***Main ends***");
+	}
+}
