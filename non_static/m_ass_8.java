@@ -1,0 +1,16 @@
+class m_ass_8
+{
+	static void bill()
+	{
+		double ele=18.8;
+		int unit = 20;
+		double bill = unit*ele;
+		System.out.println(bill);
+	}
+	public static void main (String[]args)
+	{
+		System.out.println("***main starts***");
+		bill();
+		System.out.println("***Main ends***");
+	}
+}

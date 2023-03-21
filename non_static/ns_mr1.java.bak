@@ -1,0 +1,15 @@
+class ns_mr1
+{
+	int add ()
+	{
+		int a=7,b=9;
+		int c=a+b;
+		return c;
+	}
+	public static void main (String[]args)
+	{
+		System.out.println("***Mainf starts***");
+		int x = new ns_mr1().add();
+		System.out.println(x);
+	}
+}

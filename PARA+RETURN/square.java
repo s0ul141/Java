@@ -1,0 +1,17 @@
+class square
+{
+	double area(int a)
+	{
+		double area = a*a;
+		return area;
+	}
+	
+	public static void main(String[]args)
+	{
+		System.out.println("***Main Starts***");
+		square s1 = new square();
+		double x = s1.area(36);
+		System.out.println(x);
+		System.out.println("***Main Ends***");
+	}
+}

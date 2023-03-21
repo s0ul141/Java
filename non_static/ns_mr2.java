@@ -1,0 +1,16 @@
+class ns_mr2
+{
+	int mul ()
+	{
+		int a=7,b=9, d=9;
+		int c=a*b*d;
+		return c;
+	}
+	public static void main (String[]args)
+	{
+		System.out.println("***Mainf starts***");
+		int x = new ns_mr2().mul();
+		System.out.println(x);
+		System.out.println("***Main ends***");
+	}
+}

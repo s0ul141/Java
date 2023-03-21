@@ -1,0 +1,17 @@
+class triangle
+{
+	double area(int b, int h)
+	{
+		double area = (b*h)/2.0;
+		return area;
+	}
+	
+	public static void main(String[]args)
+	{
+		System.out.println("***Main Starts***");
+		triangle t1 = new triangle();
+		double x = t1.area(3,8);
+		System.out.println(x);
+		System.out.println("***Main Ends***");
+	}
+}
