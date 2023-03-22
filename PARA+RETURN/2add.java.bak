@@ -1,0 +1,11 @@
+class 2add
+{
+	public static void main(String[]args)
+	{
+		2add a1= new 2add();
+		System.out.println(a1);
+		2add a2 = new 2add();
+		System.out.println(a2);
+	}
+
+}
