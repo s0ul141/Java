@@ -1,0 +1,21 @@
+class school
+{	
+	String name;
+	int grade;
+	double strength;
+	
+	school(String name, int grade, double strength)
+	{
+		this.name=name;
+		this.grade=grade;
+		this.strength=strength;
+	}
+	public static void main(String[]args)
+	{
+		mobile m1 = new mobile(1999, "11xrm101", "Bule");
+		System.out.println(m1.cost);
+		System.out.println(m1.model_name);
+		System.out.println(m1.color);
+	}
+	
+}

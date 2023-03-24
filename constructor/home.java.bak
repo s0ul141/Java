@@ -1,0 +1,21 @@
+class home
+{
+	String name;
+	String color;
+	double cost;
+	
+	uni(String name, double cost, String color)
+	{
+		this.name=name;
+		this.cost=cost;
+		this.color=color;
+	}
+	public static void main(String[]args)
+	{
+		home m1 = new home("Goutami", 2000000, "Bule");
+		System.out.println(m1.name);
+		System.out.println(m1.cost);
+		System.out.println(m1.color);
+	}
+	
+}

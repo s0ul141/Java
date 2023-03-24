@@ -1,0 +1,21 @@
+class laptop
+{
+	String name;
+	double cost;
+	String brand;
+	
+	laptop(String name, double cost, String brand )
+	{
+		this.name=name;
+		this.cost=cost;
+		this.brand=brand;
+	}
+	public static void main(String[]args)
+	{
+		uni m1 = new uni("Bsc.in IT", "Makaut", 20000);
+		System.out.println(m1.course_name);
+		System.out.println(m1.uni_name);
+		System.out.println(m1.exam_cost);
+	}
+	
+}
