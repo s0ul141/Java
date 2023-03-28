@@ -1,0 +1,23 @@
+class feed
+{
+	void shorts()
+	{
+		System.out.println("Keep Scrolling !!!");
+	}
+}
+class youtube
+{
+	public static void main(String[]args)
+	{
+		feed f1=new feed();
+		u.click(f1);
+
+	}
+}
+class u
+{
+	static void click(feed f2)
+	{
+		f2.shorts();
+	}
+}
