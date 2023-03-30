@@ -1,0 +1,27 @@
+class whatsapp
+{
+	static void send (int x)
+	{
+		System.out.println("HI");
+	}
+	static void send (String y)
+	{
+		System.out.println("HELLO");
+	}
+	static void send (int x, String y)
+	{
+		System.out.println("HEY");
+	}
+	static void send (String y,int x)
+	{
+		System.out.println("BEY");
+	}
+	public static void main (String[]args)
+	{
+		whatsapp w1 = new whatsapp();
+		w1.send(1);
+		w1.send("hi");
+		w1.send(1,"hi");
+		w1.send("hi",1);
+	}
+}
