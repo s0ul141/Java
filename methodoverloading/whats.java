@@ -1,0 +1,27 @@
+class whats
+{
+	void send (int x)
+	{
+		System.out.println("HI");
+	}
+	void send (String y)
+	{
+		System.out.println("HELLO");
+	}
+	void send (int x, String y)
+	{
+		System.out.println("HEY");
+	}
+	void send (String y,int x)
+	{
+		System.out.println("BEY");
+	}
+	public static void main (String[]args)
+	{
+		whats w1 = new whats();
+		w1.send(1);
+		w1.send("hi");
+		w1.send(1,"hi");
+		w1.send("hi",1);
+	}
+}
